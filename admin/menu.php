@@ -1,0 +1,32 @@
+<?php
+$adminmenu[1]['title'] = _NIM_MI_ADMENU_INDEX;
+$adminmenu[1]['link'] = "admin/index.php";
+$adminmenu[1]['icon'] = "images/icon/nav_field.png";
+$adminmenu[2]['title'] = _NIM_MI_ADMENU_IMAGES;
+$adminmenu[2]['link'] = "admin/images.php";
+$adminmenu[2]['icon'] = "images/icon/nav_doc.png";
+//$adminmenu[3]['title'] = _NIM_MI_ADMENU3;
+//$adminmenu[3]['link'] = "admin/downloads.php";
+//$adminmenu[3]['icon'] = "images/icon/nav_telecharger.png";
+//$adminmenu[4]['title'] = _NIM_MI_ADMENU4;
+//$adminmenu[4]['link'] = "admin/broken.php";
+//$adminmenu[4]['icon'] = "images/icon/nav_broken.png";
+//$adminmenu[5]['title'] = _NIM_MI_ADMENU5;
+//$adminmenu[5]['link'] = "admin/modified.php";
+//$adminmenu[5]['icon'] = "images/icon/nav_modified.png";
+$adminmenu[6]['title'] = _NIM_MI_ADMENU_EXTENTION;
+$adminmenu[6]['link'] = "admin/extention.php";
+$adminmenu[6]['icon'] = "images/icon/nav_extention.png";
+$adminmenu[7]['title'] = _NIM_MI_ADMENU_ABOUT;
+$adminmenu[7]['link'] = "admin/about.php";
+$adminmenu[7]['icon'] = "images/icon/nav_about.png";
+$adminmenu[8]['title'] = _NIM_MI_ADMENU_PERMISSIONS;
+$adminmenu[8]['link'] = "admin/permissions.php";
+$adminmenu[8]['icon'] = "images/icon/nav_permissions.png";
+$adminmenu[9]['title'] = _NIM_MI_ADMENU_UPDATE;
+$adminmenu[9]['link'] = "../system/admin.php?fct=modulesadmin&op=update&module=newimagemanager";
+$adminmenu[9]['icon'] = "images/icon/nav_update.png";
+$adminmenu[10]['title'] = _NIM_MI_ADMENU_IMPORT;
+$adminmenu[10]['link'] = "admin/import.php";
+$adminmenu[10]['icon'] = "images/icon/nav_import.png";
+?>

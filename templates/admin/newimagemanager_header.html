@@ -1,0 +1,20 @@
+<ul id="xo-Breadcrumb" style="background-image:url('<{xoAdminNav bc_bg.png}>'); ">
+    <{foreach item=breadcrumb from=$xo_sys_breadcrumb}>
+        <{if $breadcrumb.home}>
+            <li><a class="tooltip" href="<{$breadcrumb.link}>" title="<{$breadcrumb.title}>" style="background-image:url('<{xoAdminNav bc_separator.png}>');"><img  class="home" src="<{xoAdminNav home.png}>" alt="<{$breadcrumb.title}>" /></a></li>
+        <{else}>
+            <{if $breadcrumb.link}>
+            <li><a class="tooltip" href="<{$breadcrumb.link}>" title="<{$breadcrumb.title}>" style="background-image:url('<{xoAdminNav bc_separator.png}>');"><{$breadcrumb.title}></a></li>
+            <{else}>
+            <li><{$breadcrumb.title}></li>
+            <{/if}>
+        <{/if}>
+    <{/foreach}>
+</ul>
+<{if $xo_sys_tips}>
+<div class="tips">
+    <img class="floatleft tooltip" src="<{xoAdminIcons apps/jabber_protocol.png}>" alt="<{$smarty.const._AM_SYSTEM_TIPS}>" title="<{$smarty.const._AM_SYSTEM_TIPS}>" />
+    <div class="floatleft"><{$xo_sys_tips}></div>
+    <div class="clear">&nbsp;</div>
+</div>
+<{/if}>

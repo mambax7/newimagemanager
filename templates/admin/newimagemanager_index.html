@@ -1,0 +1,9 @@
+<{includeq file="db:newimagemanager_header.html"}>
+<br />
+<div class="systemicons">
+    <div class="cpicon" >
+    <{foreach item=menu from=$menu}>
+        <a class="tooltip" href="<{$xoops_url}>/modules/system/admin.php?fct=<{$menu.file}>" title="<{$menu.title}>"><img src="<{$xoops_url}>/modules/system/images/navIcons/<{$menu.file}>.png" /><br /><span><{$menu.title}></span></a>
+    <{/foreach}>
+    </div>
+</div>
